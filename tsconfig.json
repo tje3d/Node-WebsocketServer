@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "strict": true,
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "paths": {
+            "@src/*": ["src/*"],
+        },
+        "esModuleInterop": true,
+        "skipLibCheck": true, // Bekhatere moshkele rxjs
+    },
+    "files": ["./node_modules/@types/node/index.d.ts"],
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"],
+}
